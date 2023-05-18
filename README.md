@@ -61,9 +61,6 @@ we can create a new user by passing the required data in the request body using 
 #### Example Request
 
 ```json
-POST /
-Content-Type: application/json
-
 {
   "firstName": "John",
   "lastName": "Jerry"
