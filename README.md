@@ -125,7 +125,7 @@ In case of errors, the API will respond with appropriate HTTP status codes and e
 
 - `404 Not Found`: When a user with the specified `id` does not exist.
 - `400 Bad Request`: When the request is invalid or missing required parameters.
-- `409 Conflict`: When an unexpected server error occurs.
+- `409 Conflict`: When a duplicate found which indicates that the request could not be processed because of the conflict.
 
 ## Authentication and Authorization
 
